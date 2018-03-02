@@ -1,0 +1,35 @@
+<main class="container" role="main">
+		<table class="table">
+			<tr>
+				<td>
+				Kode customer</td>
+				<td>:</td>
+				<td><?php echo $dtl->kodecustomer;?></td>
+			</tr>
+			<tr>
+				<td>
+				Nama customer</td>
+				<td>:</td>
+				<td><?php echo $dtl->namacustomer;?></td>
+			</tr>
+			<tr>
+				<td>
+				Alamat customerr</td>
+				<td>:</td>
+				<td><?php echo $dtl->alamat;?></td>
+			</tr>
+			<tr>
+				<td>
+				No Telp</td>
+				<td>:</td>
+				<td><?php echo $dtl->notelp;?></td>
+			</tr>
+			<tr>
+				<td>
+				Email</td>
+				<td>:</td>
+				<td><?php echo $dtl->email;?></td>
+			</tr>
+		</table>
+		<a href="<?php echo base_url();?>index.php/customer"><button class="btn btn-secondary">Kembali</button></a>
+</main>
